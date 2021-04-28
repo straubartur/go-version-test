@@ -14,8 +14,9 @@ type CustomError struct {
 }
 
 const (
-	DefaultKind KindType = "DEFAULT_ERROR_KIND"
-	DefaultCode CodeType = "DEFAULT_ERROR_CODE"
+	DefaultArtur KindType = "teste"
+	DefaultKind  KindType = "DEFAULT_ERROR_KIND"
+	DefaultCode  CodeType = "DEFAULT_ERROR_CODE"
 	// KindInternal are errors caused by some internal fail like failed IO calls or invalid memory states
 	KindInternal KindType = "INTERNAL"
 	// KindInvalidInput are errors caused by some invalid values on the input
